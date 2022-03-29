@@ -5,7 +5,8 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #333;
+    line-height: 1.43;
+    color: #484848;
 }
 
 p {
@@ -15,6 +16,7 @@ p {
 }
 
 a:link {
+    font-size: 16px;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -60,6 +62,25 @@ ul, ol {
     border-bottom: 1px solid #ccc;
 }
 
-.logo {
-    
+.logo:link {
+    color: #484848;
+    display: inline-block;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-right: 1px solid rgba(204, 204, 204, 0.300);
+}
+
+.logo:visited {
+    color: #484848;
+}
+
+.logo:hover {
+    background-color: #f1f1f1;
+}
+
+.logo img {
+    padding: 12px 18px;
+    width: 100px;
 }
