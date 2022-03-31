@@ -83,4 +83,40 @@ ul, ol {
 .logo img {
     padding: 12px 18px;
     width: 100px;
+    vertical-align: middle;
+}
+
+/* NAV-SEARCH CSS */
+
+#nav-search-wrapper {
+    display: inline-block;
+    width: 490px;
+    height: 100%;
+}
+
+#nav-search-wrapper form input {
+    padding: 22px 10px 18px 52px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#nav-search-wrapper form input::-webkit-input-placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+#nav-search-wrapper form input::-moz-placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+#nav-search-wrapper form input:-ms-input-placeholder {
+    color: #666;
+    font-size: 14px;
 }
