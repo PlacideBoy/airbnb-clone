@@ -95,7 +95,7 @@ ul, ol {
 }
 
 #nav-search-wrapper form input {
-    padding: 22px 10px 18px 52px;
+    padding: 22px 10px 18px 25px;
     width: 100%;
     border: none;
     outline: none;
@@ -119,4 +119,23 @@ ul, ol {
 #nav-search-wrapper form input:-ms-input-placeholder {
     color: #666;
     font-size: 14px;
+}
+
+.top-nav ul {
+    float: right;
+    padding: 17px 0;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.top-nav ul li a:link {
+    color: #484848;
+    font-size: 14px;
+}
+
+.top-nav ul li a:visited {
+    color: #484848;
 }
