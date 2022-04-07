@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     line-height: 1.43;
     color: #484848;
+    overflow-x: hidden;
 }
 
 p {
@@ -146,4 +147,43 @@ ul, ol {
     width: 400%;
     height: 72vh;
     background-color: lightblue;
+}
+
+.jumbotron-arrow {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    padding: 11px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    top: 50%;
+    margin-top: -24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease; 
+    text-align: center;
+}
+
+.jumbotron-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron-arrow span {
+    color: #fff;
+    font-size: 22px;  
+}
+
+#left-jumbotron-arrow {
+    left: 16px;
+}
+
+#right-jumbotron-arrow {
+    right: 16px;
 }
