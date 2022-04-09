@@ -27,20 +27,38 @@
     </div>
     <!-- JUMBOTRON-SLIDER-->
     <div id="jumbotron-wrapper">
-        <div class="jumbotron-arrow" id="left-jumbotron-arrow">
-           <span class="ion-chevron-left">
-            <ion-icon name="chevron-back-outline"></ion-icon>
-           </span>
+        <div id="jumbotron-arrow-wrapper">
+            <div class="jumbotron-arrow" id="left-jumbotron-arrow">
+               <span class="ion-chevron-left">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+               </span>
+            </div>
+            <div class="jumbotron-arrow" id="right-jumbotron-arrow">
+                <span class="ion-chevron-right">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </span>
+            </div>
         </div>
-        <div class="jumbotron-arrow" id="right-jumbotron-arrow">
-            <span class="ion-chevron-right">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-            </span>
+        <div id="slides-wrapper">
+            <div class="slide active">
+                #1
+            </div>
+            <div class="slide">
+                #2
+            </div>
+            <div class="slide">
+                #3
+            </div>
         </div>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<!-- JS IMPORTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="functions.js"></script>
 </body>
 </html>
 
